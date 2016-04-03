@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#A00040"
+            android:gravity="center"
+            android:textSize = "15dp"
+            android:text="@string/main_title"
+     />
+    
+	<Button
+	    android:text="Ouvrir"
+	    android:id="@+id/open"
+	    style="@style/ButtonText">  
+	</Button>
+	
+	<Button
+	    android:text="Afficher la clé"
+	    android:id="@+id/disp"
+	    style="@style/ButtonText">
+	</Button>
+	
+	<Button
+	    android:text="Modifier la clé"
+	    android:id="@+id/modif"
+	    style="@style/ButtonText">  
+	</Button>
+	
+	<Button
+	    android:text="Connexion automatique"
+	    android:id="@+id/auto"
+	    style="@style/ButtonText">  
+	</Button>
+
+</LinearLayout>

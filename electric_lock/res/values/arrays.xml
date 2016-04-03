@@ -1,0 +1,6 @@
+<resources>  
+        <string-array name="connection_type_list">  
+            <item>@string/connection_type1</item>  
+            <item>@string/connection_type2</item>  
+        </string-array>  
+    </resources>  

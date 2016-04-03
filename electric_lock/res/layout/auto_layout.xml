@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#A00040"
+            android:gravity="center"
+            android:textSize = "15dp"
+            android:text="@string/open_title"
+     />
+	
+	<Button
+	    android:text = "Connecter"
+	    android:id="@+id/bluetooth"
+	    style="@style/ButtonText"> 
+	</Button>
+	
+	<Button
+	    android:text="Arrêter la connexion automatique"
+	    android:id="@+id/stop"
+	    style="@style/ButtonText"
+	    android:visibility="gone">
+	</Button>
+	
+	<Button
+	    android:text="Retour au menu principal"
+	    android:id="@+id/cancel"
+	    style="@style/ButtonText">  
+	</Button>
+	
+	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize = "15dp"
+            android:id="@+id/info" 
+     />
+
+</LinearLayout>

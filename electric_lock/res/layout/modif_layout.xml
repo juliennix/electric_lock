@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+	<EditText  
+		    android:id="@+id/formerKey" 
+		    android:textSize = "20dp"  
+		    android:layout_height="wrap_content"  
+		    android:hint="@string/former_key"  
+		    android:layout_width="fill_parent"> 
+	</EditText>
+	
+	<EditText  
+		    android:id="@+id/newKey"
+		    android:textSize = "20dp" 
+		    android:layout_height="wrap_content"  
+		    android:hint="@string/new_key"
+		    android:layout_width="fill_parent">  
+	</EditText>
+	
+	<Spinner
+        android:id="@+id/bluetoothDevices"
+        android:textSize = "20dp" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/bluetooth_devices"
+    />
+	
+	<Button
+	    android:text="@string/ok"
+	    android:id="@+id/ok"
+	    android:visibility="gone"
+	    style="@style/ButtonText">  
+	</Button>
+	
+	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/info" 
+     />
+	
+	<Button
+	    android:text="@string/retour"
+	    android:id="@+id/cancel"
+	    style="@style/ButtonText">  
+	</Button>
+
+</LinearLayout>

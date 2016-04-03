@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">idp4</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="main_title">Ingénieur de Projets 2013 - Serrure électronique</string>
+    <string name="open_title">Menu d\'ouverture à distance</string>
+    <string name="disp_title">La clé de sécurité est : </string>
+    <string name="connection_type1">Bluetooth</string>  
+    <string name="connection_type2">Internet</string>
+    <string name="bluetooth_devices">Choisissez un appareil</string>
+	<string name="Annuler">Annuler</string>
+	<string name="retour">Retour au menu</string>
+	<string name="former_key">Ancienne clé</string>
+	<string name="new_key">Nouvelle clé</string>
+	<string name="ok">OK</string>
+</resources>
